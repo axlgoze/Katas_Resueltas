@@ -72,6 +72,10 @@ Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 
 ¡Felicidades! Has logrado crear y usar correctamente un entorno virtual.
 
+![](../images/pipfreeze.PNG)
+
+![](../images/deactivate.PNG)
+
 
 Curso Propedútico de Python para Launch X - Innovacción Virtual.
 

@@ -88,6 +88,8 @@ Así es como puede verse la activación en distintos sistemas operativos.
   # Linux, WSL o macOS
   source env/bin/activate
 ```
+
+![](../images/activate.PNG)
 Llamar al comando ``activate`` cambia el mensaje de salida de la consola. Ahora está precedido con ``(env)`` y se parece a este ejemplo:
 
 ``` 
@@ -120,6 +122,8 @@ Si ejecutas el comando anterior, descargará e instalará ``dateutil``, un paque
     /lib
       /dateutil
 ```
+![](../images/paqueteinstaled.PNG)
+
 Para ver qué paquetes están ahora instalados en tu entorno virtual, puedes ejecutar ``pip freeze``. Este comando produce una lista de paquetes instalados en el terminal:
 
 *Recuerda: Si deseas instalar un paquete desde un notebook se ejecuta con signo de admiración al inicio. ``!pip freeze``* Sin embargo, no estamos trabajando con notebooks ahorita, estamos ejecutando todo por terminal (consola, bash, cli, cmd, como sea que le digas).
@@ -184,6 +188,7 @@ Asegúrate de tener un directorio para tus archivos. Te sugerimos que llames al 
 
   print(now)
 ```
+![](../images/dateprogram.PNG)
 
 Curso Propedútico de Python para Launch X - Innovacción Virtual.
 

@@ -1,9 +1,10 @@
-# Curso Introductorio de Python
-Curso Propedútico de Python para Launch X - Innovacción Virtual.
+# Ejercicios de katas resueltas para Microsoft Launch X 
 
-Material desarrollado con base en los contenidos de MSLearn y la metáfora de LaunchX, traducción e implementación por: Fernanda Ochoa - Learning Producer de LaunchX.
+:smiley:
+
+Alumno: R. F. B. Axel 
+
 
 Redes:
-* GitHub: [FernandaOchoa](https://github.com/FernandaOchoa)
-* Twitter: [@imonsh](https://twitter.com/imonsh)
-* Instagram: [fherz8a](https://www.instagram.com/fherz8a/)
+* GitHub: [Axl Reyes](https://github.com/axlgoze)
+* Instagram: [axlze](https://www.instagram.com/axlze/)
