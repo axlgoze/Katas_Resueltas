@@ -70,6 +70,8 @@ Los tracebacks casi siempre incluyen la información siguiente:
 * Los nombres de las funciones, métodos o clases implicados en la generación de una excepción.
 * El nombre de la excepción que se ha producido.
 
+![image](../images/k10_00.JPG)
+
 ## Controlando las excepciones
 
 Cuando encuentres por primera vez excepciones que muestren tracebacks grandes como salida, es posible que te veas tentado/a a detectar todos los errores para evitar que esto suceda.
@@ -89,7 +91,7 @@ Vamos a usar el ejemplo de navegador a fin de crear código que abra archivos de
 ...
 Couldn't find the config.txt file!
 ```
-
+![image](../images/k10_01.JPG)
 Después de la palabra clave `try`, agregamos código que tenga la posibilidad de producir una excepción. A continuación, agregamos la palabra clave `except` junto con la posible excepción, seguida de cualquier código que deba ejecutarse cuando se produce esa condición. Puesto que config.txt no existe en el sistema, Python imprime que el archivo de configuración no está ahí. El bloque `try` y `except`, junto con un mensaje útil, evita un seguimiento y sigue informando al usuario sobre el problema.
 
 Aunque es común un archivo que no existe, no es el único error que podemos encontrar. Los permisos de archivo no válidos pueden impedir la lectura de un archivo, incluso si este existe. Vamos a crear un archivo de Python denominado config.py. El archivo tiene código que busca y lee el archivo de configuración del sistema de navegación:
@@ -153,6 +155,8 @@ Ahora volvemos a ejecutarlo, en el mismo lugar donde *config.txt* está con el p
 $ python config.py
 Found config.txt but couldn't read it
 ```
+
+![image](../images/k10_02.JPG)
 Eliminamos el archivo config.txt para asegurarnos de que se alcanza el primer bloque `except` en su lugar:
 ```
 $ rm -f config.txt
@@ -292,7 +296,7 @@ Traceback (most recent call last):
   File "<stdin>", line 9, in water_left
 TypeError: All arguments must be of type int, but received: '3'
 ```
-
+![image](../images/k10_03.JPG)
 ## Resumen
 Para ser un desarrollador eficaz, debes saber cómo funcionan las excepciones y cómo controlarlas. En este módulo, has descubierto cómo usar la salida de excepción para la depuración, cómo detectar y generar excepciones y, por último, cómo afecta a la lógica de un programa cuando se producen excepciones.
 
